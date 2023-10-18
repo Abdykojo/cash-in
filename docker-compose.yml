@@ -1,0 +1,64 @@
+version: '3'
+services:
+  myapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - "8081:8080"
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres
+
+    environment:
+
+      POSTGRES_PASSWORD: kojo2301
+      POSTGRES_USER: postgres
+      POSTGRES_DB: http_db
+    volumes:
+      - data:/var/lib/postgresql/data
+    ports:
+        - "5432:5432"
+volumes:
+  data:
+
+#version: '3.8'
+#services:
+#  postgres:
+#    image: postgres:14
+#    container_name: app
+#    environment:
+#      POSTGRES_USER: postgres
+#      POSTGRES_PASSWORD: kojo2301
+#      POSTGRES_DB: http_db
+#      POSTGRES_HOST: localhost
+#      POSTGRES_PORT: 5432
+#
+#    ports:
+#      - "5432:5432"
+#    volumes:
+#      - postgres-data:/var/lib/postgresql/data
+#
+#  app:
+##    build: .
+#    container_name: db
+#    image: app-springboot-postgresql
+#    build: ./
+#
+#    environment:
+#      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/http_db
+#      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+#      SPRING_DATASOURCE_USERNAME: postgres
+#      SPRING_DATASOURCE_PASSWORD: kojo2301
+#    ports:
+#      - "8080:8080"
+#    depends_on:
+#      - postgres
+#
+#volumes:
+#  postgres-data:
+#
+#

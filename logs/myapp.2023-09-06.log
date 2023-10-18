@@ -1,0 +1,30 @@
+16:29:29.041 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.http.HttpApplicationTests]: HttpApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:29:29.149 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.http.HttpApplication for test class com.example.http.HttpApplicationTests
+16:29:29.566 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+16:29:29.590 [main] INFO  c.example.http.HttpApplicationTests - Starting HttpApplicationTests using Java 19.0.2 with PID 6528 (started by a_djamankeev in C:\Users\a_djamankeev\IdeaProjects\http — spring sec)
+16:29:29.592 [main] INFO  c.example.http.HttpApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:29:31.317 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:29:31.387 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+16:29:31.792 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:29:32.068 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ef037e4
+16:29:32.069 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:29:32.123 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16:29:33.356 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:29:35.181 [main] INFO  c.example.http.HttpApplicationTests - Started HttpApplicationTests in 5.826 seconds (process running for 7.011)
+16:29:35.399 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:29:35.411 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:48:36.748 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.http.HttpApplicationTests]: HttpApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:48:36.857 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.http.HttpApplication for test class com.example.http.HttpApplicationTests
+16:48:37.259 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+16:48:37.286 [main] INFO  c.example.http.HttpApplicationTests - Starting HttpApplicationTests using Java 19.0.2 with PID 19736 (started by a_djamankeev in C:\Users\a_djamankeev\IdeaProjects\http — spring sec)
+16:48:37.287 [main] INFO  c.example.http.HttpApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:48:38.942 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:48:39.011 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+16:48:39.397 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:48:39.645 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e2b9f53
+16:48:39.648 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:48:39.681 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16:48:40.901 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:48:42.907 [main] INFO  c.example.http.HttpApplicationTests - Started HttpApplicationTests in 5.866 seconds (process running for 7.077)
+16:48:43.184 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:48:43.192 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

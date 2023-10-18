@@ -1,0 +1,64 @@
+09:07:05.151 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h37m57s457ms233µs900ns).
+21:42:33.412 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:42:33.418 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:42:38.976 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+21:42:39.008 [main] INFO  com.example.http.HttpApplication - Starting HttpApplication using Java 19.0.2 with PID 28260 (C:\Users\a_djamankeev\IdeaProjects\http — spring sec\target\classes started by a_djamankeev in C:\Users\a_djamankeev\IdeaProjects\http — spring sec)
+21:42:39.010 [main] INFO  com.example.http.HttpApplication - No active profile set, falling back to 1 default profile: "default"
+21:42:40.395 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:42:40.395 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:42:40.395 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+21:42:40.500 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:42:40.609 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+21:42:40.681 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+21:42:40.986 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:42:41.195 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1640f20f
+21:42:41.197 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:42:41.228 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+21:42:42.360 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21:42:43.797 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:42:43.816 [main] INFO  com.example.http.HttpApplication - Started HttpApplication in 5.193 seconds (process running for 6.241)
+21:43:03.684 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:43:03.692 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:43:07.429 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+21:43:07.458 [main] INFO  com.example.http.HttpApplication - Starting HttpApplication using Java 19.0.2 with PID 20748 (C:\Users\a_djamankeev\IdeaProjects\http — spring sec\target\classes started by a_djamankeev in C:\Users\a_djamankeev\IdeaProjects\http — spring sec)
+21:43:07.459 [main] INFO  com.example.http.HttpApplication - No active profile set, falling back to 1 default profile: "default"
+21:43:09.176 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:43:09.177 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:43:09.178 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+21:43:09.304 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:43:09.471 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+21:43:09.561 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+21:43:09.891 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:43:10.178 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f322610
+21:43:10.180 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:43:10.217 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+21:43:11.793 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21:44:46.083 [main] INFO  com.example.http.HttpApplication - Started HttpApplication in 99.067 seconds (process running for 100.446)
+21:44:46.107 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:44:46.114 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:44:49.984 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+21:44:50.016 [main] INFO  com.example.http.HttpApplication - Starting HttpApplication using Java 19.0.2 with PID 25252 (C:\Users\a_djamankeev\IdeaProjects\http — spring sec\target\classes started by a_djamankeev in C:\Users\a_djamankeev\IdeaProjects\http — spring sec)
+21:44:50.017 [main] INFO  com.example.http.HttpApplication - No active profile set, falling back to 1 default profile: "default"
+21:44:51.214 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:44:51.215 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:44:51.215 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+21:44:51.315 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:44:51.412 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+21:44:51.462 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+21:44:51.709 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:44:51.907 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1640f20f
+21:44:51.908 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:44:51.936 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+21:44:52.874 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21:44:54.173 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:44:54.192 [main] INFO  com.example.http.HttpApplication - Started HttpApplication in 4.524 seconds (process running for 5.699)
+21:45:02.000 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:45:02.331 [http-nio-8080-exec-1] INFO  c.e.h.a.config.AuthenticationService - Authenticate -> AuthenticationRequest(email=kk@gmail.com, password=100)
+21:45:15.359 [http-nio-8080-exec-4] INFO  c.e.h.service.impl.CheckServiceImpl - CheckServiceImpls -> CheckRequest(currency=KGS, account=2, sender=996500500500, status=null, qid=null, date=2023-06-26, type=2)
+21:45:25.869 [http-nio-8080-exec-3] INFO  c.e.h.service.impl.CheckServiceImpl - CheckServiceImpls -> CheckRequest(currency=KGS, account=2, sender=996500500500, status=null, qid=null, date=2023-06-26, type=2)
+21:45:27.222 [http-nio-8080-exec-5] INFO  c.e.h.service.impl.CheckServiceImpl - CheckServiceImpls -> CheckRequest(currency=KGS, account=2, sender=996500500500, status=null, qid=null, date=2023-06-26, type=2)
+21:45:28.022 [http-nio-8080-exec-6] INFO  c.e.h.service.impl.CheckServiceImpl - CheckServiceImpls -> CheckRequest(currency=KGS, account=2, sender=996500500500, status=null, qid=null, date=2023-06-26, type=2)
+21:45:28.582 [http-nio-8080-exec-7] INFO  c.e.h.service.impl.CheckServiceImpl - CheckServiceImpls -> CheckRequest(currency=KGS, account=2, sender=996500500500, status=null, qid=null, date=2023-06-26, type=2)
+21:54:01.184 [http-nio-8080-exec-9] INFO  c.e.h.a.config.AuthenticationService - Authenticate -> AuthenticationRequest(email=kk@gmail.com, password=100)
+21:54:55.117 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:54:55.124 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

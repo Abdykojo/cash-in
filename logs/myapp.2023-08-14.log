@@ -1,0 +1,16 @@
+14:16:31.683 [main] INFO  com.example.http.HttpApplication - Starting HttpApplication using Java 19.0.2 with PID 25316 (C:\Users\a_djamankeev\IdeaProjects\http — spring sec\target\classes started by a_djamankeev in C:\Users\a_djamankeev\IdeaProjects\http — spring sec)
+14:16:31.685 [main] INFO  com.example.http.HttpApplication - No active profile set, falling back to 1 default profile: "default"
+14:16:32.803 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+14:16:32.803 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:16:32.804 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+14:16:32.892 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:16:32.995 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:16:33.042 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+14:16:33.262 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:16:33.432 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28831d69
+14:16:33.433 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:16:33.460 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14:16:34.256 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:16:35.322 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+14:16:35.338 [main] INFO  com.example.http.HttpApplication - Started HttpApplication in 3.953 seconds (process running for 4.788)
+18:28:28.535 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m24s885ms709µs700ns).
